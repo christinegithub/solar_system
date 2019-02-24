@@ -22,7 +22,7 @@ class System:
     def total_mass(self):
         current_mass = 0
 
-        for num, body in enumerate(self.bodies, 1):
+        for num, body in enumerate(self.bodies):
             current_mass += body.mass
         return current_mass
 
